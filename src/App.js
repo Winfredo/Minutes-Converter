@@ -34,10 +34,10 @@ const App = () => {
   };
 
   return (
-    <div className="w-full h-[100vh] bg-[#c9c9c9]">
-      <div className="lg:max-w-[1250px] mx-auto h-[100vh] bg-[#c9c9c9] flex flex-col">
+    <div className="w-full h-[100vh] bg-[#c9c9c9] overflow-hidden">
+      <div className="lg:max-w-[1250px] mx-auto h-[100vh] bg-[#c9c9c9] flex flex-col overflow-hidden">
         <p className="text-center text-[20px] text-[#226a9a] mt-5">
-          Minute Converter
+          Minutes Converter
         </p>
         <div className="mt-[150px]">
           <div className="flex justify-evenly lg:justify-center lg:gap-[200px]">
