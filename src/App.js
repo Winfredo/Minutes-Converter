@@ -53,7 +53,7 @@ const App = () => {
               value={days}
               onChange={handleDaysChange}
               placeholder="Days"
-              className="w-full text-sm lg:text-lg px-2 py-1 border-2 border-gray-300 rounded-lg shadow-sm focus:outline-none focus:border-blue-500 focus:ring-blue-200 transition"
+              className="w-full text-sm lg:text-lg px-2 py-1 border-2 border-gray-300 rounded-lg shadow-sm focus:outline-none focus:border-blue-500"
             />
 
             <input
@@ -61,7 +61,7 @@ const App = () => {
               value={hrs}
               onChange={handleHoursChange}
               placeholder="Hrs"
-              className="w-full text-sm lg:text-lg px-2 py-1 border-2 border-gray-300 rounded-lg shadow-sm focus:outline-none focus:border-blue-500 focus:ring-blue-200 transition"
+              className="w-full text-sm lg:text-lg px-2 py-1 border-2 border-gray-300 rounded-lg shadow-sm focus:outline-none focus:border-blue-500"
             />
 
             <input
@@ -69,7 +69,7 @@ const App = () => {
               value={minutes}
               onChange={handleMinutesChange}
               placeholder="Mins"
-              className="w-full text-sm lg:text-lg px-2 py-1 border-2 border-gray-300 rounded-lg shadow-sm focus:outline-none focus:border-blue-500 focus:ring-blue-200 transition"
+              className="w-full text-sm lg:text-lg px-2 py-1 border-2 border-gray-300 rounded-lg shadow-sm focus:outline-none focus:border-blue-500"
             />
           </div>
         </div>
