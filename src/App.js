@@ -34,19 +34,19 @@ const App = () => {
   };
 
   return (
-    <div className="w-full h-[100vh] bg-red-300">
-      <div className="lg:max-w-[1250px] mx-auto h-[100vh] bg-green-300 flex flex-col">
+    <div className="w-full h-[100vh] bg-[#c9c9c9]">
+      <div className="lg:max-w-[1250px] mx-auto h-[100vh] bg-[#c9c9c9] flex flex-col">
         <p className="text-center text-[20px] text-[#226a9a] mt-5">
           Minute Converter
         </p>
         <div className="mt-[150px]">
-          <div className="flex justify-evenly">
+          <div className="flex justify-evenly lg:justify-center lg:gap-[200px]">
             <p>Days</p>
             <p className="pl-5">Hours</p>
             <p className="pl-2">Minutes</p>
           </div>
 
-          <div className="flex justify-evenly mt-5">
+          <div className="flex justify-evenly lg:justify-center lg:gap-[150px] mt-5">
             <input
               type="number"
               value={days}
