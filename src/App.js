@@ -77,14 +77,14 @@ const App = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
           <button
             onClick={handleConvert}
-            className="w-full sm:w-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-8 rounded transition-colors"
+            className="w-full  sm:w-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-12 rounded transition-colors"
           >
             CONVERT
           </button>
 
           <button
             onClick={handleClear}
-            className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white font-bold py-2 px-8 rounded transition-colors"
+            className="w-full sm:w-auto bg-black hover:bg-gray-800 text-white font-bold py-2 px-14 rounded transition-colors"
           >
             CLEAR
           </button>
